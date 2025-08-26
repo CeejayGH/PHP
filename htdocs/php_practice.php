@@ -97,20 +97,153 @@
 
         // Strings
 
-        $a = "blue";
-        // $name = "<h1 style='color:$a'>Ceejay Estabillo";s
+        // $a = "blue";
+        // $name = "<h1 style='color:$a'>Ceejay Estabillo";
         // $name = "<h1 style=\"color:$a\">Ceejay Estabillo";
-        $name = "Ceejay Estabillo";
+        // $name = "Ceejay Estabillo";
 
-        echo strlen($name), "<br>";
-        echo str_word_count($name), "<br>";
-        echo strpos($name, "Estabillo"), "<br>";
-        echo strtoupper($name), "<br>";
-        echo strtolower($name), "<br>";
-        echo str_replace("Estabillo", "Lising", $name), "<br>";
-        echo strrev($name), "<br>";
-        echo trim($name), "<br>";
-        echo print_r(explode("e", $name), "<br>");
+        // // echo strlen($name), "<br>";
+        // // echo str_word_count($name), "<br>";
+        // // echo strpos($name, "Estabillo"), "<br>";
+        // // echo strtoupper($name), "<br>";
+        // // echo strtolower($name), "<br>";
+        // // echo str_replace("Estabillo", "Lising", $name), "<br>";
+        // // echo strrev($name), "<br>";
+        // // echo trim($name), "<br>";
+        // // echo print_r(explode("e", $name), "<br>");
+
+        // Concatinate
+
+        // $x = "Hello";
+        // $y = "World!";
+        // echo $x." ".$y ."<br>";
+        // echo "$x $y". "<br>";
+        // echo '$x $y'. "<br>";
+
+        // Slicing
+
+        // $x = "Hello";
+        // echo substr($x, 1, 4), "<br>";
+        // echo substr($x, 1), "<br>";
+        // echo substr($x, -5, 2), "<br>";
+
+        // Escape Characters
+
+        // $a = "sample";
+        // $x = "John \"Pogi\" Doe";
+        // echo $x;
+
+        // Numbers
+
+        // $a = -1; //int
+        // $b = 1.0; //float
+        // $c = "5"; //string
+
+        // echo PHP_INT_MAX, "<br>";
+        // echo PHP_INT_MIN, "<br>";
+        // echo PHP_INT_SIZE, "<br>";
+        // echo is_int($c), "<br>";
+
+        // echo PHP_FLOAT_MAX, "<br>";
+        // echo PHP_FLOAT_MIN, "<br>";
+        // echo PHP_FLOAT_DIG, "<br>";
+        // echo PHP_FLOAT_EPSILON, "<br>";
+        // echo is_float($b), "<br>";
+
+        // echo is_numeric($c);
+
+        $a  = "Ceejay"; //String
+        $b = 28; //Integer
+        $c = 3.14; //Float
+        $d = true; //Boolean
+        $e = [1,2,3]; //Array
+        $f = new stdClass(); //Object
+        $g = null; //Null
+        $h = fopen("php_practice.php", "r"); //Resource
+
+        
+        // $a =  $a;
+        // $b =  $b;
+        // $c =  $c;
+        // $d =  $d;
+        // $e =  $e;
+        // $f =  $f;
+        // $g =  $g;
+        // $h =  $h;
+
+        // Casting - String
+
+        // $a = (string) $a;
+        // $b = (string) $b;
+        // $c = (string) $c;
+        // $d = (string) $d;
+        // $e =  $e;
+        // $f =  $f;
+        // $g = (string) $g;
+        // $h = (string) $h;
+
+        // Casting - Int
+
+        // $a = (int) $a;
+        // $b = (int) $b;
+        // $c = (int) $c;
+        // $d = (int) $d;
+        // $e = (int) $e;
+        // $f =  $f;
+        // $g = (int) $g;
+        // $h = (int) $h;
+
+        // Casting - Float
+
+        // $a = (float) $a;
+        // $b = (float) $b;
+        // $c = (float) $c;
+        // $d = (float) $d;
+        // $e = (float) $e;
+        // $f =  $f;
+        // $g = (float) $g;
+        // $h = (float) $h;
+
+        // Casting - Boolean
+        
+        // $a = (bool) $a;
+        // $b = (bool) $b;
+        // $c = (bool) $c;
+        // $d = (bool) $d;
+        // $e = (bool) $e;
+        // $f = (bool) $f;
+        // $g = (bool) $g;
+        // $h = (bool) $h;
+
+        // Casting - Array
+
+        // $a = (array) $a;
+        // $b = (array) $b;
+        // $c = (array) $c;
+        // $d = (array) $d;
+        // $e = (array) $e;
+        // $f = (array) $f;
+        // $g = (array) $g;
+        // $h = (array) $h;
+
+
+        var_dump($a);
+        echo "<br>";
+        var_dump($b);
+        echo "<br>";
+        var_dump($c);
+        echo "<br>";
+        var_dump($d);
+        echo "<br>";
+        var_dump($e);
+        echo "<br>";
+        var_dump($f);
+        echo "<br>";
+        var_dump($g);
+        echo "<br>";
+        var_dump($h);
+        echo "<br>";
+
     ?>
 </body>
 </html>
